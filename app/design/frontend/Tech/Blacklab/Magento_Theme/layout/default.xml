@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body> 
+        <move element="catalog.topnav" destination="header-wrapper" />
+
+        <referenceBlock name="catalog.compare.link" remove="true"/>
+        <referenceBlock name="catalog.compare.sidebar" remove="true"/>
+        <referenceBlock name="related.product.addto.compare" remove="true"/> <!-- Related product -->
+        <referenceBlock name="category.product.addto.compare" remove="true"/> <!-- Category add compare -->
+        <referenceBlock name="view.addto.compare" remove="true" /> <!-- Product addto compare -->
+        <referenceBlock name="wish-list-link" remove="true" />  <!-- Wishlist top.links-->
+        <referenceBlock name="register-link" remove="true" /> <!-- Register top.links-->
+        <referenceBlock name="my-account-link" remove="true" /> <!-- Account top.links-->
+        <referenceBlock name="sale.reorder.sidebar" remove="true"/>
+        <referenceBlock name="advanced-search-link" remove="true"/>
+        <referenceBlock name="footer" remove="true"/>
+    </body>
+</page>
