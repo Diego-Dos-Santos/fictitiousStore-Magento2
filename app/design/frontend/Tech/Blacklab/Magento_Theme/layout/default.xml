@@ -1,9 +1,8 @@
 <?xml version="1.0"?>
 <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
     <body> 
-        <move element="catalog.topnav" destination="header-wrapper" />
-
         <referenceBlock name="catalog.compare.link" remove="true"/>
+        <referenceBlock name="greet.welcome" remove="true"/>
         <referenceBlock name="catalog.compare.sidebar" remove="true"/>
         <referenceBlock name="related.product.addto.compare" remove="true"/> <!-- Related product -->
         <referenceBlock name="category.product.addto.compare" remove="true"/> <!-- Category add compare -->
